@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    amq-protocol (2.3.2)
+    bunny (2.19.0)
+      amq-protocol (~> 2.3, >= 2.3.1)
+      sorted_set (~> 1, >= 1.0.2)
+    bytes_converter (0.0.6)
+    rbtree (0.4.4)
+    set (1.0.2)
+    sorted_set (1.0.3)
+      rbtree
+      set (~> 1.0)
+
+PLATFORMS
+  amd64-freebsd-13
+
+DEPENDENCIES
+  bunny (~> 2)
+  bytes_converter
+
+RUBY VERSION
+   ruby 2.7.2p137
+
+BUNDLED WITH
+   2.2.15
+
